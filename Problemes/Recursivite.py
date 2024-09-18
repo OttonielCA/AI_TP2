@@ -5,8 +5,8 @@ def add_recursive(n):
         # print("iteration is equal 1, stopped")
         return 1
 
-    '''Retourne un appel de la fonction elle même avec son paramètre 'n' diminué de 1, ceci en 
-    additionnant un deuxième appel de la fonction elle même avec son paramètre 'n' diminué de 1'''
+    # Retourne un appel de la fonction elle même avec son paramètre 'n' diminué de 1, ceci en
+    # additionnant un deuxième appel de la fonction elle même avec son paramètre 'n' diminué de 1
     return add_recursive(n - 1) + add_recursive(n - 1)
 
 # On demande à l'utilisateur un nombre
