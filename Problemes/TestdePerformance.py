@@ -15,4 +15,4 @@ def benchmark(n):
     print('Took add_recursive('+str(n)+f') {runtime_add_recursive:.3f} seconds')
     print('Took add_recursive_mem('+str(n)+f') {runtime_add_recursive_mem:.3f} seconds')
 
-benchmark(30)
+benchmark(20)

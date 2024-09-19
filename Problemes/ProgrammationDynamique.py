@@ -16,9 +16,3 @@ def add_recursive_mem(n, memo={}):
 
     # Retourne la valeur de la cle 'n' dans le dictionnaire memo
     return memo[n]
-
-# On demande à l'utilisateur un nombre
-n = int(input("Veuillez donner un nombre: "))
-
-# Appel de la fonction
-print(f"La réponse est: {add_recursive_mem(n)}")

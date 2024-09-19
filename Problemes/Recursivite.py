@@ -8,9 +8,3 @@ def add_recursive(n):
     # Retourne un appel de la fonction elle même avec son paramètre 'n' diminué de 1, ceci en
     # additionnant un deuxième appel de la fonction elle même avec son paramètre 'n' diminué de 1
     return add_recursive(n - 1) + add_recursive(n - 1)
-
-# On demande à l'utilisateur un nombre
-n = int(input("Veuillez donner un nombre: "))
-
-# Appel de la fonction
-print(f"La réponse est: {add_recursive(n)}")
